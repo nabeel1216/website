@@ -1,2 +1,3 @@
-FROM ubuntu/apache2
-ADD . /var/www/html/
+FROM ubuntu/nginx
+ADD . /var/www/html
+CMD  ["nginx", "-g", "daemon off;"]
