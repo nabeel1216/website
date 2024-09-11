@@ -14,6 +14,6 @@ spec:
     spec:
       containers:
       - name: nginx
-        image: nabeel1216/pr2
+        image: nabeel1216/p6
         ports:
         - containerPort: 80
